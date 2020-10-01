@@ -1,0 +1,98 @@
+// Buttons
+
+@mixin _base-button() {
+  @include primary-box-shadow();
+
+  display: inline-flex;
+  border: 2px solid transparent;
+  border-radius: 42px;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    @include hover-box-shadow();
+  }
+  &:active {
+    @include pressed-box-shadow();
+  }
+
+  .icon {
+    width: 20px;
+    height: auto;
+    margin-right: 0;
+
+    @media (min-width: $breakpoint-md) {
+      margin-right: 8px;
+    }
+  }
+
+  .text {
+    font-size: 0;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 20px;
+    }
+  }
+}
+
+@mixin primary-button() {
+  @include _base-button();
+
+  background-color: $light-text-color;
+  border-color: $light-text-color;
+  color: $dark-text-color;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($light-text-color, 10%);
+    border-color: lighten($light-text-color, 10%);
+  }
+  &:active {
+    background-color: darken($light-text-color, 10%);
+    border-color: darken($light-text-color, 10%);
+  }
+}
+
+@mixin secondary-button() {
+  @include _base-button();
+
+  background-color: $dark-text-color;
+  border-color: $light-text-color;
+  color: $light-text-color;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    @include hover-box-shadow();
+
+    background-color: lighten($light-text-color, 10%);
+    border-color: lighten($light-text-color, 10%);
+    color: $dark-text-color;
+  }
+
+  &:active {
+    @include hover-box-shadow();
+
+    background-color: darken($light-text-color, 10%);
+    border-color: darken($light-text-color, 10%);
+  }
+}
+
+// Shadows
+
+@mixin primary-box-shadow() {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+}
+@mixin hover-box-shadow() {
+  box-shadow: 0 14px 10px -6px rgba(0, 0, 0, 0.4);
+}
+@mixin pressed-box-shadow() {
+  box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.4);
+}

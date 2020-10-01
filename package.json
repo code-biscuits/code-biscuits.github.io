@@ -1,0 +1,22 @@
+{
+  "name": "code-biscuits.github.io",
+  "version": "0.0.1",
+  "description": "Marketing site for Code Biscuits. A suite of Developer enhancement tools.",
+  "main": "index.js",
+  "repository": "https://github.com/code-biscuits/code-biscuits.github.io.git",
+  "author": "Chris Griffing <cmgriffing@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "saber": "^0.11.7"
+  },
+  "scripts": {
+    "dev": "saber",
+    "build": "saber build",
+    "deploy": "yarn build && gh-pages -d public"
+  },
+  "devDependencies": {
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2"
+  }
+}
