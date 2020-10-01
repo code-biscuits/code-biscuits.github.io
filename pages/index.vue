@@ -10,7 +10,7 @@
     </div>
     <div class="example-wrapper">
       <h2>See it in action. Watch the end tags.</h2>
-      <img src="example.gif" />
+      <img src="~/assets/images/example.gif" />
     </div>
     <div class="downloads-wrapper">
       <h2>Downloads</h2>
@@ -22,14 +22,17 @@
               class="marketplace-button"
               href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.html-biscuits"
             >
-              <img class="icon" src="icon-download-dark.svg" />
+              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
               <span class="text">Marketplace</span>
             </a>
             <a
               class="github-button"
-              href="https://github.com/code-biscuits/html-biscuits"
+              href="https://github.com/code-biscuits/html-biscuits/"
             >
-              <img class="icon" src="icon-code-fork-light.svg" />
+              <img
+                class="icon"
+                src="~/assets/images/icon-code-fork-light.svg"
+              />
               <span class="text">Github</span>
             </a>
           </div>
@@ -52,6 +55,9 @@
 </template>
 
 <style lang="scss">
+@import "~/assets/styles/variables";
+@import "~/assets/styles/mixins";
+
 html,
 body {
   margin: 0;

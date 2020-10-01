@@ -2,7 +2,7 @@
   <header class="main-header" v-bind:class="{ scrolled }">
     <h1 class="title">
       <span class="icon-wrapper">
-        <img class="icon" src="icon-biscuits.svg" />
+        <img class="icon" src="~/assets/images/icon-biscuits.svg" />
       </span>
       Code Biscuits
     </h1>
@@ -11,11 +11,11 @@
         class="marketplace-button"
         href="https://marketplace.visualstudio.com/publishers/CodeBiscuits"
       >
-        <img class="icon" src="icon-download-dark.svg" />
+        <img class="icon" src="~/assets/images/icon-download-dark.svg" />
         <span class="text">Marketplace</span>
       </a>
       <a class="github-button" href="https://github.com/code-biscuits">
-        <img class="icon" src="icon-code-fork-light.svg" />
+        <img class="icon" src="~/assets/images/icon-code-fork-light.svg" />
         <span class="text">Github</span>
       </a>
     </div>
@@ -23,6 +23,9 @@
 </template>
 
 <style lang="scss" scoped>
+@import "~/assets/styles/variables";
+@import "~/assets/styles/mixins";
+
 .main-header {
   position: fixed;
   top: 0;

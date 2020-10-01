@@ -1,5 +1,6 @@
-// Buttons
+@import "./variables";
 
+// Buttons
 @mixin _base-button() {
   @include primary-box-shadow();
 
