@@ -102,7 +102,7 @@ export default Vue.extend({
   },
   data: function() {
     return {
-      scrolled: false,
+      scrolled: true,
     };
   },
   methods: {
