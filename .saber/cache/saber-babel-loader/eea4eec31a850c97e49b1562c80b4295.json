@@ -1,1 +1,0 @@
-{"ast":null,"code":"var layouts = {};\nimport layout_0 from \"/Users/cmgriffing/code-biscuits.github.io/node_modules/saber/vue-app/theme/layouts/default.vue\";\nlayouts[\"default\"] = layout_0;\nexport default layouts;","map":null,"metadata":{},"sourceType":"module"}

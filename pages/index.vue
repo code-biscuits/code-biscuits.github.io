@@ -10,7 +10,7 @@
     </div>
     <div class="example-wrapper">
       <h2>See it in action. Watch the end tags.</h2>
-      <img src="../static/example.gif" />
+      <img src="example.gif" />
     </div>
     <div class="downloads-wrapper">
       <h2>Downloads</h2>
@@ -22,14 +22,14 @@
               class="marketplace-button"
               href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.html-biscuits"
             >
-              <img class="icon" src="../static/icon-download-dark.svg" />
+              <img class="icon" src="icon-download-dark.svg" />
               <span class="text">Marketplace</span>
             </a>
             <a
               class="github-button"
               href="https://github.com/code-biscuits/html-biscuits"
             >
-              <img class="icon" src="../static/icon-code-fork-light.svg" />
+              <img class="icon" src="icon-code-fork-light.svg" />
               <span class="text">Github</span>
             </a>
           </div>
