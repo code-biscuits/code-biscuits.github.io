@@ -37,6 +37,28 @@
             </a>
           </div>
         </li>
+        <li class="download">
+          <h3>JS/TS Biscuits</h3>
+          <div class="buttons">
+            <a
+              class="marketplace-button"
+              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.js-ts-biscuits"
+            >
+              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
+              <span class="text">Marketplace</span>
+            </a>
+            <a
+              class="github-button"
+              href="https://github.com/code-biscuits/js-ts-biscuits/"
+            >
+              <img
+                class="icon"
+                src="~/assets/images/icon-code-fork-light.svg"
+              />
+              <span class="text">Github</span>
+            </a>
+          </div>
+        </li>
         <li class="download"><h3>More coming soon...</h3></li>
       </ul>
     </div>
