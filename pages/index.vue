@@ -15,85 +15,27 @@
     <div class="downloads-wrapper">
       <h2>Downloads</h2>
       <ul class="downloads">
-        <li class="download">
-          <h3>HTML Biscuits</h3>
+        <li
+          class="download"
+          v-for="extension in extensions"
+          :key="extension.slug"
+        >
+          <h3>{{ extension.name }} Biscuits</h3>
           <div class="buttons">
             <a
               class="marketplace-button"
-              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.html-biscuits"
+              :href="
+                `https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.${extension.slug}-biscuits`
+              "
             >
               <img class="icon" src="~/assets/images/icon-download-dark.svg" />
               <span class="text">Marketplace</span>
             </a>
             <a
               class="github-button"
-              href="https://github.com/code-biscuits/html-biscuits/"
-            >
-              <img
-                class="icon"
-                src="~/assets/images/icon-code-fork-light.svg"
-              />
-              <span class="text">Github</span>
-            </a>
-          </div>
-        </li>
-        <li class="download">
-          <h3>JS/TS Biscuits</h3>
-          <div class="buttons">
-            <a
-              class="marketplace-button"
-              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.js-ts-biscuits"
-            >
-              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
-              <span class="text">Marketplace</span>
-            </a>
-            <a
-              class="github-button"
-              href="https://github.com/code-biscuits/js-ts-biscuits/"
-            >
-              <img
-                class="icon"
-                src="~/assets/images/icon-code-fork-light.svg"
-              />
-              <span class="text">Github</span>
-            </a>
-          </div>
-        </li>
-        <li class="download">
-          <h3>JSON Biscuits</h3>
-          <div class="buttons">
-            <a
-              class="marketplace-button"
-              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.json-biscuits"
-            >
-              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
-              <span class="text">Marketplace</span>
-            </a>
-            <a
-              class="github-button"
-              href="https://github.com/code-biscuits/json-biscuits/"
-            >
-              <img
-                class="icon"
-                src="~/assets/images/icon-code-fork-light.svg"
-              />
-              <span class="text">Github</span>
-            </a>
-          </div>
-        </li>
-        <li class="download">
-          <h3>CSS Biscuits</h3>
-          <div class="buttons">
-            <a
-              class="marketplace-button"
-              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.css-biscuits"
-            >
-              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
-              <span class="text">Marketplace</span>
-            </a>
-            <a
-              class="github-button"
-              href="https://github.com/code-biscuits/css-biscuits/"
+              :href="
+                `https://github.com/code-biscuits/${extension.slug}-biscuits/`
+              "
             >
               <img
                 class="icon"
@@ -268,6 +210,32 @@ h6 {
 import Vue from "vue";
 import Header from "../components/header.vue";
 export default Vue.extend({
+  data: function() {
+    return {
+      extensions: [
+        {
+          name: "HTML",
+          slug: "html",
+        },
+        {
+          name: "JS/TS",
+          slug: "js-ts",
+        },
+        {
+          name: "JSON",
+          slug: "json",
+        },
+        {
+          name: "CSS",
+          slug: "css",
+        },
+        {
+          name: "C#",
+          slug: "csharp",
+        },
+      ],
+    };
+  },
   components: {
     Header,
   },
