@@ -81,6 +81,28 @@
             </a>
           </div>
         </li>
+        <li class="download">
+          <h3>CSS/SCSS/LESS Biscuits</h3>
+          <div class="buttons">
+            <a
+              class="marketplace-button"
+              href="https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.css-biscuits"
+            >
+              <img class="icon" src="~/assets/images/icon-download-dark.svg" />
+              <span class="text">Marketplace</span>
+            </a>
+            <a
+              class="github-button"
+              href="https://github.com/code-biscuits/css-biscuits/"
+            >
+              <img
+                class="icon"
+                src="~/assets/images/icon-code-fork-light.svg"
+              />
+              <span class="text">Github</span>
+            </a>
+          </div>
+        </li>
         <li class="download"><h3>More coming soon...</h3></li>
       </ul>
     </div>
