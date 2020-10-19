@@ -82,7 +82,7 @@
           </div>
         </li>
         <li class="download">
-          <h3>CSS/SCSS/LESS Biscuits</h3>
+          <h3>CSS Biscuits</h3>
           <div class="buttons">
             <a
               class="marketplace-button"
