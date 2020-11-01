@@ -10,10 +10,15 @@
   padding: 14px 20px;
   text-decoration: none;
   font-weight: bold;
+  font-family: "Fredoka One";
   transition: all 0.3s;
   outline: none;
   align-items: center;
   justify-content: center;
+
+  * {
+    font-family: "Fredoka One";
+  }
 
   &:hover,
   &:focus {

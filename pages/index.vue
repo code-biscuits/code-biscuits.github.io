@@ -21,6 +21,7 @@
           :key="extension.slug"
         >
           <h3>{{ extension.name }} Biscuits</h3>
+          <div class="spacer"></div>
           <div class="buttons">
             <a
               class="marketplace-button"
@@ -76,6 +77,7 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 
 h1,
@@ -85,6 +87,11 @@ h4,
 h5,
 h6 {
   text-shadow: 1px 1px 1px #000;
+  font-family: "Fredoka One";
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
 
 .outer-page-wrapper {
@@ -177,13 +184,20 @@ h6 {
     margin-bottom: 24px;
     background: $dark-text-color;
 
-    width: 620px;
+    width: 720px;
     max-width: calc(100vw - 48px);
 
     h3 {
       font-size: 28px;
       color: $light-text-color;
       margin: 0;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      min-width: 140px;
     }
   }
 }

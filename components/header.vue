@@ -71,11 +71,11 @@
 
     position: absolute;
     top: 400px;
-    right: calc(50vw - 70px);
+    right: calc(50vw - 68px);
     transition: all 0.3s;
 
     @media (min-width: $breakpoint-md) {
-      right: calc(50vw - 120px);
+      right: calc(50vw - 168px);
     }
   }
 
