@@ -2172,8 +2172,15 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
+      "title": "Code Biscuits: Delicious additions to your editor",
+      "link": [{
+        "rel": "stylesheet",
+        "href": "https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Poppins&display=swap"
+      }, {
+        "rel": "stylesheet",
+        "href": "https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Fredoka+One&display=swap"
+      }],
       "meta": [],
-      "link": [],
       "style": [],
       "script": []
     },
