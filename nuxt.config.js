@@ -4,6 +4,7 @@ export default {
     dir: "docs",
   },
   head: {
+    title: "Code Biscuits: Delicious additions to your editor",
     link: [
       {
         rel: "stylesheet",
