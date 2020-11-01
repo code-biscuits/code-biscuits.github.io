@@ -222,16 +222,12 @@ export default Vue.extend({
           slug: "js-ts",
         },
         {
-          name: "JSON",
-          slug: "json",
-        },
-        {
           name: "CSS",
           slug: "css",
         },
         {
-          name: "C#",
-          slug: "csharp",
+          name: "Assorted",
+          slug: "assorted",
         },
       ],
     };

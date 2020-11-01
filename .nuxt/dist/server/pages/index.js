@@ -2,20 +2,6 @@ exports.ids = [1];
 exports.modules = {
 
 /***/ 18:
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEyNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTAwIDEwMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIHN0eWxlPSJmaWxsOiAjNTIyODBiOyIgZD0iTTk1LDc2djEyYzAsMy44Ni0zLjE0LDctNyw3SDEyYy0zLjg2LDAtNy0zLjE0LTctN1Y3NmMwLTMuODYsMy4xNC03LDctN3M3LDMuMTQsNyw3djVoNjJ2LTVjMC0zLjg2LDMuMTQtNyw3LTcgIFM5NSw3Mi4xNCw5NSw3NnogTTQ4LjQ0LDY4LjQxYzAuNDMsMC40MywxLDAuNjIsMS41NiwwLjU4YzAuMDUsMCwwLjEsMCwwLjE0LDBjMC41MSwwLDEuMDItMC4yLDEuNDEtMC41OWwxOS4yOS0xOS4yOSAgYzIuNzUtMi43NSwyLjc1LTcuMjIsMC05Ljk3djBjLTEuMzMtMS4zMy0zLjEtMi4wNi00Ljk5LTIuMDZjLTEuODgsMC0zLjY1LDAuNzMtNC45OSwyLjA2TDU3LDQzLjAzVjEyYzAtMy44Ni0zLjE0LTctNy03ICBjLTMuODYsMC03LDMuMTQtNyw3djMxLjAzbC0zLjg3LTMuODdjLTIuNzUtMi43NS03LjIyLTIuNzUtOS45NywwYy0yLjc1LDIuNzUtMi43NSw3LjIyLDAsOS45N0w0OC40NCw2OC40MXoiLz48L3N2Zz4="
-
-/***/ }),
-
-/***/ 19:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/icon-code-fork-light.3abaa4e.svg";
-
-/***/ }),
-
-/***/ 20:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -32,7 +18,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 21:
+/***/ 19:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -46,6 +32,20 @@ var add = __webpack_require__(8).default
 module.exports.__inject__ = function (context) {
   add("2e107364", content, false, context)
 };
+
+/***/ }),
+
+/***/ 20:
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEyNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTAwIDEwMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIHN0eWxlPSJmaWxsOiAjNTIyODBiOyIgZD0iTTk1LDc2djEyYzAsMy44Ni0zLjE0LDctNyw3SDEyYy0zLjg2LDAtNy0zLjE0LTctN1Y3NmMwLTMuODYsMy4xNC03LDctN3M3LDMuMTQsNyw3djVoNjJ2LTVjMC0zLjg2LDMuMTQtNyw3LTcgIFM5NSw3Mi4xNCw5NSw3NnogTTQ4LjQ0LDY4LjQxYzAuNDMsMC40MywxLDAuNjIsMS41NiwwLjU4YzAuMDUsMCwwLjEsMCwwLjE0LDBjMC41MSwwLDEuMDItMC4yLDEuNDEtMC41OWwxOS4yOS0xOS4yOSAgYzIuNzUtMi43NSwyLjc1LTcuMjIsMC05Ljk3djBjLTEuMzMtMS4zMy0zLjEtMi4wNi00Ljk5LTIuMDZjLTEuODgsMC0zLjY1LDAuNzMtNC45OSwyLjA2TDU3LDQzLjAzVjEyYzAtMy44Ni0zLjE0LTctNy03ICBjLTMuODYsMC03LDMuMTQtNyw3djMxLjAzbC0zLjg3LTMuODdjLTIuNzUtMi43NS03LjIyLTIuNzUtOS45NywwYy0yLjc1LDIuNzUtMi43NSw3LjIyLDAsOS45N0w0OC40NCw2OC40MXoiLz48L3N2Zz4="
+
+/***/ }),
+
+/***/ 21:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/icon-code-fork-light.3abaa4e.svg";
 
 /***/ }),
 
@@ -68,7 +68,7 @@ module.exports = __webpack_require__.p + "img/icon-biscuits.9810fc1.svg";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_style_index_0_id_698abdf4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
@@ -94,7 +94,7 @@ module.exports = exports;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_3_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
@@ -122,19 +122,19 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=17038f40&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"outer-page-wrapper"},[_c('Header'),_vm._ssrNode(" <div class=\"hero\"><h2 class=\"hero-title\">Delicious Code Editor Extensions</h2> <p>\n      Every dev needs something sweet sometimes. Code Biscuits are in-editor\n      annotations usually at the end of a closing tag/bracket/parenthisis/etc.\n    </p></div> <div class=\"example-wrapper\"><h2>See it in action. Watch the end tags.</h2> <img"+(_vm._ssrAttr("src",__webpack_require__(22)))+"></div> <div class=\"downloads-wrapper\"><h2>Downloads</h2> <ul class=\"downloads\"><li class=\"download\"><h3>HTML Biscuits</h3> <div class=\"buttons\"><a href=\"https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.html-biscuits\" class=\"marketplace-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(18)))+" class=\"icon\"> <span class=\"text\">Marketplace</span></a> <a href=\"https://github.com/code-biscuits/html-biscuits/\" class=\"github-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(19)))+" class=\"icon\"> <span class=\"text\">Github</span></a></div></li> <li class=\"download\"><h3>JS/TS Biscuits</h3> <div class=\"buttons\"><a href=\"https://marketplace.visualstudio.com/items?itemName=CodeBiscuits.js-ts-biscuits\" class=\"marketplace-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(18)))+" class=\"icon\"> <span class=\"text\">Marketplace</span></a> <a href=\"https://github.com/code-biscuits/js-ts-biscuits/\" class=\"github-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(19)))+" class=\"icon\"> <span class=\"text\">Github</span></a></div></li> <li class=\"download\"><h3>More coming soon...</h3></li></ul></div> <footer class=\"main-footer\"><div>\n      Icons used:\n      <ul><li>biscuit by Bartama Graphic from the Noun Project</li> <li>Download by IconMark from the Noun Project</li> <li>Code Fork by shashank singh from the Noun Project</li></ul></div>\n    Made with Biscuits. 2020\n  </footer>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=c7b52580&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"outer-page-wrapper"},[_c('Header'),_vm._ssrNode(" <div class=\"hero\"><h2 class=\"hero-title\">Delicious Code Editor Extensions</h2> <p>\n      Every dev needs something sweet sometimes. Code Biscuits are in-editor\n      annotations usually at the end of a closing tag/bracket/parenthisis/etc.\n    </p></div> <div class=\"example-wrapper\"><h2>See it in action. Watch the end tags.</h2> <img"+(_vm._ssrAttr("src",__webpack_require__(22)))+"></div> <div class=\"downloads-wrapper\"><h2>Downloads</h2> <ul class=\"downloads\">"+(_vm._ssrList((_vm.extensions),function(extension){return ("<li class=\"download\"><h3>"+_vm._ssrEscape(_vm._s(extension.name)+" Biscuits")+"</h3> <div class=\"buttons\"><a"+(_vm._ssrAttr("href",("https://marketplace.visualstudio.com/items?itemName=CodeBiscuits." + (extension.slug) + "-biscuits")))+" class=\"marketplace-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(20)))+" class=\"icon\"> <span class=\"text\">Marketplace</span></a> <a"+(_vm._ssrAttr("href",("https://github.com/code-biscuits/" + (extension.slug) + "-biscuits/")))+" class=\"github-button\"><img"+(_vm._ssrAttr("src",__webpack_require__(21)))+" class=\"icon\"> <span class=\"text\">Github</span></a></div></li>")}))+" <li class=\"download\"><h3>More coming soon...</h3></li></ul></div> <footer class=\"main-footer\"><div>\n      Icons used:\n      <ul><li>biscuit by Bartama Graphic from the Noun Project</li> <li>Download by IconMark from the Noun Project</li> <li>Code Fork by shashank singh from the Noun Project</li></ul></div>\n    Made with Biscuits. 2020\n  </footer>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=17038f40&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=c7b52580&
 
 // EXTERNAL MODULE: external "vue"
 var external_vue_ = __webpack_require__(0);
 var external_vue_default = /*#__PURE__*/__webpack_require__.n(external_vue_);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/header.vue?vue&type=template&id=698abdf4&scoped=true&
-var headervue_type_template_id_698abdf4_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{staticClass:"main-header",class:{ scrolled: _vm.scrolled }},[_vm._ssrNode("<h1 class=\"title\" data-v-698abdf4><span class=\"icon-wrapper\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(23)))+" class=\"icon\" data-v-698abdf4></span>\n    Code Biscuits\n  </h1> <div class=\"cta-buttons\" data-v-698abdf4><a href=\"https://marketplace.visualstudio.com/publishers/CodeBiscuits\" class=\"marketplace-button\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(18)))+" class=\"icon\" data-v-698abdf4> <span class=\"text\" data-v-698abdf4>Marketplace</span></a> <a href=\"https://github.com/code-biscuits\" class=\"github-button\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(19)))+" class=\"icon\" data-v-698abdf4> <span class=\"text\" data-v-698abdf4>Github</span></a></div>")])}
+var headervue_type_template_id_698abdf4_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{staticClass:"main-header",class:{ scrolled: _vm.scrolled }},[_vm._ssrNode("<h1 class=\"title\" data-v-698abdf4><span class=\"icon-wrapper\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(23)))+" class=\"icon\" data-v-698abdf4></span>\n    Code Biscuits\n  </h1> <div class=\"cta-buttons\" data-v-698abdf4><a href=\"https://marketplace.visualstudio.com/publishers/CodeBiscuits\" class=\"marketplace-button\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(20)))+" class=\"icon\" data-v-698abdf4> <span class=\"text\" data-v-698abdf4>Marketplace</span></a> <a href=\"https://github.com/code-biscuits\" class=\"github-button\" data-v-698abdf4><img"+(_vm._ssrAttr("src",__webpack_require__(21)))+" class=\"icon\" data-v-698abdf4> <span class=\"text\" data-v-698abdf4>Github</span></a></div>")])}
 var headervue_type_template_id_698abdf4_scoped_true_staticRenderFns = []
 
 
@@ -497,21 +497,29 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_ts_ = (external_vue_default.a.extend({
+  data: function() {
+    return {
+      extensions: [
+        {
+          name: "HTML",
+          slug: "html",
+        },
+        {
+          name: "JS/TS",
+          slug: "js-ts",
+        },
+        {
+          name: "CSS",
+          slug: "css",
+        },
+        {
+          name: "Assorted",
+          slug: "assorted",
+        },
+      ],
+    };
+  },
   components: {
     Header: header,
   },
