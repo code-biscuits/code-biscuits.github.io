@@ -46,7 +46,23 @@
             </a>
           </div>
         </li>
-        <li class="download"><h3>More coming soon...</h3></li>
+
+        <li class="download" :key="'nvim'">
+          <h3>nvim-biscuits</h3>
+          <div class="spacer"></div>
+          <div class="buttons">
+            <a
+              class="github-button"
+              :href="`https://github.com/code-biscuits/nvim-biscuits/`"
+            >
+              <img
+                class="icon"
+                src="~/assets/images/icon-code-fork-light.svg"
+              />
+              <span class="text">Github</span>
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
     <footer class="main-footer">
